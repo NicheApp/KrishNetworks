@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/comp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Krishi Network"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"/>
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:hint="Enter Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="170dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:hint="Enter Email"
+            android:inputType="textEmailAddress" />
+
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="match_parent"
+            android:layout_height="133dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="240dp"
+            android:src="@drawable/ic_baseline_photo_camera_24"
+
+
+            />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="380dp"
+            android:background="@color/purplecolor"
+            android:elevation="4dp"
+            android:text="Submit Query"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+        <TextView
+            android:id="@+id/show_data"
+            android:layout_width="match_parent"
+
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="450dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:hint="Name : Nishkarsh Maitry \n Email : nishkarshmaitry0864@gmail.com"
+            android:inputType="textPersonName" />
+
+    </RelativeLayout>
+
+</ScrollView>
